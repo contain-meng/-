@@ -28,8 +28,13 @@ Cudnn 7.0.5
 推荐使用anaconda创建一个gpu环境，将依赖库安装到gpu环境中
 
 cnnModel.png是我将数据集经过CNN运行后生成的网络层次图以及一些层的信息
+
 xml文件是opencv所依赖的人脸分类器
+
 trainLayer.py是构建CNN的文件
+
 get_pic.py是opencv调用摄像头获取图片的文件
+
 predict.py是调用模型进行表情分类的文件
+
 newModel.h5是训练后的模型
